@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+.navbar img{
+width:70px;
+height: 50px;
+}
+.navbar-nav{
+   margin-left: 290px;
+}
+* {
+  margin: 0px;
+}
+.product{
+  background-image: url("../Images/360_F_522144286_7y4QNhvvfYWte5n0q0LvZqjIyefim4Zw.jpg");
+  border-top-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+  height:450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.footer1 {
+    background-color: rgba(5, 48, 12, 0.671);
+    color: #fefefe;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 100px;
+    height: 400px;
+  }
+  .form1{
+    width: 40%;
+    background-color: #dcebe2;
+    height: 200px;
+  }
+  .left{
+    width: 48%;
+    background-color: #0c4e26;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+  }
+  
+  .footer1 .heading {
+    color: #fefefe;
+    max-width: 1010px;
+    width: 90%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .footer1 .contents {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+  }
+  
+  .footer1 .contents p {
+    margin-bottom: 1.3rem;
+  }
+  
+  .footer1 .contents a {
+    text-decoration: none;
+    color: #fefefe;
+  }
+  
+  .footer1 .contents a:hover {
+    border-bottom: 1px solid #971717;
+  }
+  
+  .footer1 .contents h4 {
+    margin-bottom: 1.3rem;
+    font-size: 19px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  footer hr {
+    margin: 2rem 0;
+  }
+  
+  @media (max-width: 767px) {
+    .footer1 .contents {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+  
+    .footer1 {
+      position: unset;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .footer1 .contents,
+    .footer1 {
+      font-size: 14px;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-height: 500px) {
+    .footer1 {
+      position: unset;
+    }
+  }
+  .banner{
+    
+        background-image: url("../Images/trees-2900064_1280.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        margin-top: -10px;
+  }
+
+  /* .container {
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0 10px 20px #dbdbdb;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ .palette {
+    display: flex;
+    height: 86%;
+    width:100%;
+  }
+  
+  .color {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: flex 0.1s linear;
+  }
+  
+  .color span {
+    opacity: 0;
+    transition: opacity 0.1s linear;
+  }
+  
+  .color:nth-child(1) {
+    background-image: url("../Images/ImageForArticle_983_16685257223166236.webp");
+    background-size: cover;
+  }
+  
+  .color:nth-child(2) {
+    background-image: url("../Images/download (1).jpg");
+    background-size: cover;
+  }
+  
+  .color:nth-child(3) {
+    background-image: url("../Images/download (11).jpg");
+    background-size: cover;
+  }
+  
+  .color:nth-child(4) {
+    background-image: url("../Images/download (12).jpg");
+    background-size: cover;
+  }
+  
+  .color:nth-child(5) {
+    background-image: url("../Images/download (13).jpg");
+    background-size: cover;
+  }
+  
+  .color:hover {
+    flex: 2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .color:hover span {
+    opacity: 1;
+  }
+  
+  #stats {
+    height: 14%;
+    width: 40%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5em;
+    box-sizing: border-box;
+    color: #bebebe;
+  }
+  
+  #stats svg {
+    fill: #bebebe;
+    transform: scale(5);
+  }  */
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #a6d1ad;
+    }
+    .item:hover .overlay{
+      opacity: 70%;
+    }
+    .text{
+    background-color: rgb(2, 53, 2);
+    width: 50%;
+    height: 60px;
+	color:white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+
+  .cards{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+  }
+  .card-title {
+    color: rgba(39, 2, 2, 0.815);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  
+  .small-desc {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color:white;
+  }
+  
+  
+  .go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background: linear-gradient(135deg, #6293c8, #384c6c);
+    border-radius: 0 4px 0 32px;
+  }
+  
+  .go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+  
+  .card1 {
+    display: block;
+    position: relative;
+    max-width: 300px;
+    max-height: 320px;
+    background-image: url("../Images/rice-plantation-1822444_1280.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    /* background: linear-gradient(to bottom, #c3e6ec, #a7d1d9); */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .card2 {
+    display: block;
+    position: relative;
+    max-width: 300px;
+    max-height: 320px;
+    background-image: url("../Images/photo-1625246333195-78d9c38ad449.avif");
+    background-size: cover;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    /* background: linear-gradient(to bottom, #c3e6ec, #a7d1d9); */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .card3 {
+    display: block;
+    position: relative;
+    max-width: 300px;
+    max-height: 320px;
+    background-image: url("../Images/oranges-1117628_1280.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    /* background: linear-gradient(to bottom, #c3e6ec, #a7d1d9); */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .community{
+    margin-top: 100px;
+  }
+  .card4 {
+    display: block;
+    position: relative;
+    max-width: 300px;
+    max-height: 320px;
+    background-image: url("../Images/organic-1003049_640.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    /* background: linear-gradient(to bottom, #c3e6ec, #a7d1d9); */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .card1:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg, #36604e, #386c4e);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .card1:hover:before {
+    transform: scale(28);
+  }
+  
+  .card1:hover .small-desc {
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .card1:hover .card-title {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+  .card2:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg, #36604e, #386c4e);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .card2:hover:before {
+    transform: scale(28);
+  }
+  
+  .card2:hover .small-desc {
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .card2:hover .card-title {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+  .card3:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg, #36604e, #386c4e);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .card3:hover:before {
+    transform: scale(28);
+  }
+  
+  .card3:hover .small-desc {
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .card3:hover .card-title {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+  .card4:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg, #36604e, #386c4e);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .card4:hover:before {
+    transform: scale(28);
+  }
+  
+  .card4:hover .small-desc {
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .card4:hover .card-title {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+  .join{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+@media (min-width:700px) and (max-width:1000px){
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card1,.card2,.card3,.card4{
+    width:45%;
+    margin-top:20px;
+  }
+}
+@media (min-width:1px) and (max-width:700px){
+  .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card1,.card2,.card3,.card4{
+    width:100%;
+    margin-top:20px;
+  }
+}
